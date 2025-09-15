@@ -1,0 +1,14 @@
+[project]
+name = "nyayagpt"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "docling>=2.52.0",
+    "sentence-transformers>=5.1.0",
+    "transformers>=4.56.1",
+    "chromadb>=0.5.0",
+    "pinecone>=5.0.0",
+    "python-dotenv>=1.0.0",
+]
